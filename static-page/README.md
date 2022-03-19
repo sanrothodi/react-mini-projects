@@ -32,7 +32,7 @@ Clone this git repository and run the static page locally in your machine.
 
 > Run:
 
-    cd static\ page
+    cd static-page
 
 ### Start our environment to run the project
 
