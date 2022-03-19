@@ -1,0 +1,85 @@
+html, body {
+  margin: 0;
+  background-color: #282D35;
+  background-image: url(../public/logo512InGrey.png);
+  background-repeat: no-repeat;
+  background-position: right 40vh;
+  color: #ffffff;
+  font-family: -apple-system, 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  color: #61DAFB;
+}
+
+.navbar {
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  background-color: #21222A;
+  padding: 0.75em;
+}
+
+.logo-and-name {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  margin-right: auto;
+}
+
+.logo-size{
+  margin: 0;
+  width: 80px;
+}
+
+.company-name {
+  margin: 0;
+  color: #61DAFB;
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  margin-left: auto;
+}
+
+.navbar-list-item {
+  padding: 1em;
+}
+
+main {
+  padding: 2em;
+
+}
+
+.text {
+  color: #ffffff;
+  align-items: center;
+}
+
+
+.list > li::marker {
+  color: #61DAFB;
+  font-size: 1.3em;
+}
+
+footer {
+  display: inline-block;
+  padding: 0 2em;
+}
+
+
+
+
