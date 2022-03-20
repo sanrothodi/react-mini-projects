@@ -32,7 +32,7 @@ Clone this git repository and run the social profile locally in your machine.
 
 > Run:
 
-    cd static-page
+    cd social-profile
 
 ### Start our environment to run the project
 
