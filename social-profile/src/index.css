@@ -1,13 +1,160 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  background-color: rgb(18, 28, 39);
+  color: #ffffff;
+  font-family: -apple-system, 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a{
+  text-decoration: none;
+}
+
+.profile-picture-box {
+  height: 60vh;
+  width: 100vw;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+.profile-picture {
+  max-width: 100vw;
+}
+
+.info {
+  padding: 1em;
+  text-align: center;
+}
+
+.username {
+  margin: 0;
+}
+
+.profession {
+  margin: 0;
+  color: rgb(238, 167, 74);
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.url-box {
+  padding: 0.5em;
+}
+.url {
+  padding-top: 20em;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 0.7em;
+  font-weight: 500;
+}
+
+.url:hover {
+  color: rgb(238, 167, 74);
+}
+
+.buttons {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0.5em 2em 1em;
+}
+
+.buttons-line {
+  margin: auto;
+  text-align: center;
+}
+
+.button {
+  width: 160px;
+  height: 35px;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.email-button {
+  padding: 0 1em;
+  background-color:#ffffff;
+}
+
+.email-button-icon {
+  border-radius: 3px;
+  margin-right: 2px;
+}
+
+.linkedin-button{
+  align-items: center;
+  padding: 0 1em;
+  background-color: #0077b5;
+}
+
+.linkedin-button-icon {
+  background-color: #ffffff;
+  fill: #0077b5;
+  border-radius: 3px;
+  margin-right: 4px;
+}
+
+.button-text {
+  font-weight: 700;
+  text-align: center; 
+}
+
+.email {
+  color: #000000;
+}
+
+.linkedin {
+  color: #ffffff;
+}
+
+.about {
+  padding: 1em 3em;
+  margin-bottom: 0;
+}
+
+.about > h2 {
+  margin: 10px 0;
+}
+
+.about > p {
+  font-size: 0.7em;
+  line-height: 1.5em;
+}
+
+.interests {
+  padding: 1em 3em;
+}
+
+.interests > h2 {
+  margin: 10px 0;
+}
+
+.interests > p {
+  font-size: 0.7em;
+  line-height: 1.5em;
+}
+
+footer {
+  display: flex;
+  background-color: rgb(13, 19, 26);
+  height: 10vh;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding: 0;
+}
+
+.social-icons {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 3vw;
+  background-color: #4c505f;
+  fill: rgb(13, 19, 26);
+  border-radius: 7px;
 }
